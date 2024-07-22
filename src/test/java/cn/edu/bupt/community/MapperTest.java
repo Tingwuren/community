@@ -1,6 +1,8 @@
 package cn.edu.bupt.community;
 
+import cn.edu.bupt.community.dao.DiscussPostMapper;
 import cn.edu.bupt.community.dao.UserMapper;
+import cn.edu.bupt.community.entity.DiscussPost;
 import cn.edu.bupt.community.entity.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 
 @SpringBootTest
@@ -19,6 +22,9 @@ public class MapperTest {
 
     @Autowired
     private SimpleDateFormat simpleDateFormat;
+
+    @Autowired
+    private DiscussPostMapper discussPostMapper;
 
     @Test
     public void testSelectById() {
@@ -56,6 +62,17 @@ public class MapperTest {
         System.out.println(rows);
 
         rows = userMapper.updatePassword(150, "hello");
+        System.out.println(rows);
+    }
+
+    @Test
+    public void testSelectDiscussPosts() {
+        List<DiscussPost> list = discussPostMapper.selectDiscussPosts(149, 0, 10);
+        for (DiscussPost post : list) {
+            System.out.println(post);
+        }
+
+        int rows = discussPostMapper.selectDiscussPostRows(149);
         System.out.println(rows);
     }
 

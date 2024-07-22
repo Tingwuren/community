@@ -1,0 +1,2 @@
+2024-07-20 20:35:02,844 WARN [main] o.t.t.TemplateMode [TemplateMode.java:150] [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-07-20 20:35:03,202 WARN [main] c.e.b.c.LoggerTest [LoggerTest.java:23] warn log
