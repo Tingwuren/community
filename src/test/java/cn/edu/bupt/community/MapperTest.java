@@ -1,8 +1,10 @@
 package cn.edu.bupt.community;
 
 import cn.edu.bupt.community.dao.DiscussPostMapper;
+import cn.edu.bupt.community.dao.LoginTicketMapper;
 import cn.edu.bupt.community.dao.UserMapper;
 import cn.edu.bupt.community.entity.DiscussPost;
+import cn.edu.bupt.community.entity.LoginTicket;
 import cn.edu.bupt.community.entity.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +28,9 @@ public class MapperTest {
     @Autowired
     private DiscussPostMapper discussPostMapper;
 
+    @Autowired
+    private LoginTicketMapper loginTicketMapper;
+
     @Test
     public void testSelectById() {
         User user = userMapper.selectById(101);
@@ -46,7 +51,7 @@ public class MapperTest {
         user.setSalt("abc");
         user.setEmail("hello@mail.com");
         user.setHeaderUrl("http://www.nowcoder.com/101.png"); // 0-1000
-        user.setCreateTime(simpleDateFormat.format(new Date()));
+        user.setCreateTime(new Date());
 
         int rows = userMapper.insertUser(user);
         System.out.println(rows);
@@ -74,6 +79,30 @@ public class MapperTest {
 
         int rows = discussPostMapper.selectDiscussPostRows(149);
         System.out.println(rows);
+    }
+
+    @Test
+    public void testInsertLoginTicket() {
+        // 插入
+        LoginTicket loginTicket = new LoginTicket();
+        loginTicket.setUserId(101);
+        loginTicket.setTicket("abc");
+        loginTicket.setStatus(0);
+        loginTicket.setExpired(new Date(System.currentTimeMillis() + 1000 * 60 * 10)); // 10分钟
+        loginTicketMapper.insertLoginTicket(loginTicket);
+    }
+
+    @Test
+    public void testSelectByTicket() {
+        LoginTicket loginTicket = loginTicketMapper.selectByTicket("abc");
+        System.out.println(loginTicket);
+    }
+
+    @Test
+    public void testUpdateStatus() {
+        int rows = loginTicketMapper.updateStatus("abc", 1);
+        LoginTicket loginTicket = loginTicketMapper.selectByTicket("abc");
+        System.out.println(loginTicket);
     }
 
 }

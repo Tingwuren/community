@@ -2,6 +2,8 @@ package cn.edu.bupt.community.entity;
 
 import lombok.Data;
 
+import java.util.Date;
+
 @Data
 public class User {
     private int id;
@@ -13,6 +15,6 @@ public class User {
     private int status;
     private String activationCode;
     private String headerUrl;
-    private String createTime;
+    private Date createTime;
 
 }

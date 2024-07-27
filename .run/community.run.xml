@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="community" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="community" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.bupt.community.CommunityApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
