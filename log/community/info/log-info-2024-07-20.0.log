@@ -1,5 +1,0 @@
-2024-07-20 20:35:01,565 INFO [main] c.e.b.c.LoggerTest [StartupInfoLogger.java:55] Starting LoggerTest using Java 11.0.23 on HPZhanX with PID 383598 (started by tingnobody in /home/tingnobody/IdeaProjects/community)
-2024-07-20 20:35:01,567 INFO [main] c.e.b.c.LoggerTest [SpringApplication.java:645] No active profile set, falling back to 1 default profile: "default"
-2024-07-20 20:35:02,763 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2024-07-20 20:35:02,956 INFO [main] c.e.b.c.LoggerTest [StartupInfoLogger.java:61] Started LoggerTest in 1.763 seconds (JVM running for 2.32)
-2024-07-20 20:35:03,202 INFO [main] c.e.b.c.LoggerTest [LoggerTest.java:22] info log

@@ -1,5 +1,6 @@
 package cn.edu.bupt.community.controller;
 
+import cn.edu.bupt.community.annotation.LoginRequired;
 import cn.edu.bupt.community.entity.User;
 import cn.edu.bupt.community.service.UserService;
 import cn.edu.bupt.community.util.CommunityUtil;
@@ -50,11 +51,13 @@ public class UserController {
     @Autowired
     private ResourceLoader resourceLoader;
 
+    @LoginRequired
     @RequestMapping(path = "/setting", method = RequestMethod.GET)
     public String getSettingPage() {
         return "/site/setting";
     }
 
+    @LoginRequired
     @RequestMapping(path= "/upload", method = RequestMethod.POST)
     public String uploadHeader(MultipartFile headerImage, Model model) {
         if (headerImage == null) {
