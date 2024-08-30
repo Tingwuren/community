@@ -1,0 +1,153 @@
+2024-08-29 15:18:12,107 INFO [restartedMain] c.e.b.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 11.0.24 on HPZhanX with PID 55725 (/home/tingnobody/IdeaProjects/community/target/classes started by tingnobody in /home/tingnobody/IdeaProjects/community)
+2024-08-29 15:18:12,111 INFO [restartedMain] c.e.b.c.CommunityApplication [SpringApplication.java:645] No active profile set, falling back to 1 default profile: "default"
+2024-08-29 15:18:12,143 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-29 15:18:12,143 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-29 15:18:12,850 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2024-08-29 15:18:12,856 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 15:18:12,857 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-08-29 15:18:12,857 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-29 15:18:12,889 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-08-29 15:18:12,890 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 746 ms
+2024-08-29 15:18:13,356 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2024-08-29 15:18:13,433 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-08-29 15:18:13,446 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 15:18:13,456 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2024-08-29 15:18:13,464 INFO [restartedMain] c.e.b.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.697 seconds (JVM running for 2.186)
+2024-08-29 15:18:33,573 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 15:18:33,573 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2024-08-29 15:18:33,574 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2024-08-29 15:18:33,591 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:34,660 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:35,681 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:36,697 INFO [http-nio-8080-exec-4] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:37,712 INFO [http-nio-8080-exec-5] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:38,726 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:39,738 INFO [http-nio-8080-exec-7] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:40,750 INFO [http-nio-8080-exec-8] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:41,762 INFO [http-nio-8080-exec-9] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:42,775 INFO [http-nio-8080-exec-10] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:43,788 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:44,813 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:48,474 INFO [http-nio-8080-exec-4] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:18:48,498 INFO [http-nio-8080-exec-4] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2024-08-29 15:21:41,765 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2024-08-29 15:21:41,767 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2024-08-29 15:21:44,218 INFO [restartedMain] c.e.b.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 11.0.24 on HPZhanX with PID 58698 (/home/tingnobody/IdeaProjects/community/target/classes started by tingnobody in /home/tingnobody/IdeaProjects/community)
+2024-08-29 15:21:44,219 INFO [restartedMain] c.e.b.c.CommunityApplication [SpringApplication.java:645] No active profile set, falling back to 1 default profile: "default"
+2024-08-29 15:21:44,245 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-29 15:21:44,246 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-29 15:21:44,862 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2024-08-29 15:21:44,867 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 15:21:44,868 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-08-29 15:21:44,868 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-29 15:21:44,900 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-08-29 15:21:44,901 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 655 ms
+2024-08-29 15:21:45,271 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2024-08-29 15:21:45,340 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-08-29 15:21:45,353 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 15:21:45,362 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2024-08-29 15:21:45,371 INFO [restartedMain] c.e.b.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.416 seconds (JVM running for 1.81)
+2024-08-29 15:21:50,000 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 15:21:50,000 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2024-08-29 15:21:50,001 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2024-08-29 15:21:50,017 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:21:50,092 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2024-08-29 15:25:11,703 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2024-08-29 15:25:11,710 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2024-08-29 15:25:15,953 INFO [restartedMain] c.e.b.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 11.0.24 on HPZhanX with PID 61279 (/home/tingnobody/IdeaProjects/community/target/classes started by tingnobody in /home/tingnobody/IdeaProjects/community)
+2024-08-29 15:25:15,955 INFO [restartedMain] c.e.b.c.CommunityApplication [SpringApplication.java:645] No active profile set, falling back to 1 default profile: "default"
+2024-08-29 15:25:15,982 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-29 15:25:15,982 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-29 15:25:16,776 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2024-08-29 15:25:16,781 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 15:25:16,782 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-08-29 15:25:16,782 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-29 15:25:16,819 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-08-29 15:25:16,819 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 836 ms
+2024-08-29 15:25:17,408 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2024-08-29 15:25:17,586 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-08-29 15:25:17,598 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 15:25:17,606 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2024-08-29 15:25:17,615 INFO [restartedMain] c.e.b.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.914 seconds (JVM running for 2.427)
+2024-08-29 15:25:22,213 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 15:25:22,214 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2024-08-29 15:25:22,215 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2024-08-29 15:25:22,235 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:25:22,307 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2024-08-29 15:37:43,100 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2024-08-29 15:37:43,106 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2024-08-29 15:37:45,579 INFO [restartedMain] c.e.b.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 11.0.24 on HPZhanX with PID 70081 (/home/tingnobody/IdeaProjects/community/target/classes started by tingnobody in /home/tingnobody/IdeaProjects/community)
+2024-08-29 15:37:45,580 INFO [restartedMain] c.e.b.c.CommunityApplication [SpringApplication.java:645] No active profile set, falling back to 1 default profile: "default"
+2024-08-29 15:37:45,610 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-29 15:37:45,610 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-29 15:37:46,428 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2024-08-29 15:37:46,435 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 15:37:46,435 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-08-29 15:37:46,436 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-29 15:37:46,473 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-08-29 15:37:46,473 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 862 ms
+2024-08-29 15:37:47,203 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2024-08-29 15:37:47,395 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-08-29 15:37:47,409 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 15:37:47,417 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2024-08-29 15:37:47,426 INFO [restartedMain] c.e.b.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 2.133 seconds (JVM running for 2.56)
+2024-08-29 15:37:59,245 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 15:37:59,246 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2024-08-29 15:37:59,246 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
+2024-08-29 15:37:59,258 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.UserService.findLoginTicket]
+2024-08-29 15:37:59,271 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2024-08-29 15:37:59,341 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2024-08-29 15:37:59,379 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.DiscussPostService.findDiscussPostRows]
+2024-08-29 15:37:59,391 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.DiscussPostService.findDiscussPosts]
+2024-08-29 15:37:59,398 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:37:59,401 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:37:59,402 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:37:59,404 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:37:59,406 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:37:59,408 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:37:59,410 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:37:59,411 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:37:59,413 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:37:59,415 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:37:59]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:38:04,808 INFO [http-nio-8080-exec-6] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:04]，访问了[cn.edu.bupt.community.service.UserService.findLoginTicket]
+2024-08-29 15:38:04,854 INFO [http-nio-8080-exec-9] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:04]，访问了[cn.edu.bupt.community.service.UserService.findLoginTicket]
+2024-08-29 15:38:15,809 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findLoginTicket]
+2024-08-29 15:38:15,815 INFO [http-nio-8080-exec-1] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.login]
+2024-08-29 15:38:15,846 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findLoginTicket]
+2024-08-29 15:38:15,848 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:38:15,850 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.DiscussPostService.findDiscussPostRows]
+2024-08-29 15:38:15,851 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.DiscussPostService.findDiscussPosts]
+2024-08-29 15:38:15,857 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:38:15,858 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:38:15,860 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:38:15,861 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:38:15,863 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:38:15,864 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:38:15,865 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:38:15,867 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:38:15,868 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:38:15,870 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:38:15]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:39:54,946 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.UserService.findLoginTicket]
+2024-08-29 15:39:54,949 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:39:54,952 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.DiscussPostService.findDiscussPostRows]
+2024-08-29 15:39:54,954 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.DiscussPostService.findDiscussPosts]
+2024-08-29 15:39:54,958 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:39:54,959 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:39:54,961 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:39:54,962 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:39:54,963 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:39:54,964 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:39:54,965 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:39:54,967 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:39:54,968 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:39:54,969 INFO [http-nio-8080-exec-2] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:39:54]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:40:28,535 INFO [http-nio-8080-exec-7] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:40:28]，访问了[cn.edu.bupt.community.service.UserService.findLoginTicket]
+2024-08-29 15:40:28,538 INFO [http-nio-8080-exec-7] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:40:28]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:40:28,540 INFO [http-nio-8080-exec-7] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:40:28]，访问了[cn.edu.bupt.community.service.MessageService.findConversationCount]
+2024-08-29 15:40:28,554 INFO [http-nio-8080-exec-7] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:40:28]，访问了[cn.edu.bupt.community.service.MessageService.findConversations]
+2024-08-29 15:40:28,556 INFO [http-nio-8080-exec-7] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:40:28]，访问了[cn.edu.bupt.community.service.MessageService.findLetterCount]
+2024-08-29 15:40:28,557 INFO [http-nio-8080-exec-7] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:40:28]，访问了[cn.edu.bupt.community.service.MessageService.findLetterUnreadCount]
+2024-08-29 15:40:28,559 INFO [http-nio-8080-exec-7] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:40:28]，访问了[cn.edu.bupt.community.service.UserService.findUserById]
+2024-08-29 15:40:28,560 INFO [http-nio-8080-exec-7] c.e.b.c.a.ServiceLogAspect [ServiceLogAspect.java:39] 用户[127.0.0.1]，在[2024-08-29 15:40:28]，访问了[cn.edu.bupt.community.service.MessageService.findLetterUnreadCount]
+2024-08-29 15:44:16,095 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2024-08-29 15:44:16,100 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
