@@ -2,7 +2,10 @@ package cn.edu.bupt.community.controller;
 
 import cn.edu.bupt.community.annotation.LoginRequired;
 import cn.edu.bupt.community.entity.User;
+import cn.edu.bupt.community.service.FollowService;
+import cn.edu.bupt.community.service.LikeService;
 import cn.edu.bupt.community.service.UserService;
+import cn.edu.bupt.community.util.CommunityConstant;
 import cn.edu.bupt.community.util.CommunityUtil;
 import cn.edu.bupt.community.util.HostHolder;
 import org.apache.commons.lang3.StringUtils;
@@ -29,7 +32,7 @@ import java.nio.file.Paths;
 
 @Controller
 @RequestMapping("/user")
-public class UserController {
+public class UserController implements CommunityConstant {
 
     private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
@@ -50,6 +53,12 @@ public class UserController {
 
     @Autowired
     private ResourceLoader resourceLoader;
+
+    @Autowired
+    private LikeService likeService;
+
+    @Autowired
+    private FollowService followService;
 
     @LoginRequired
     @RequestMapping(path = "/setting", method = RequestMethod.GET)
@@ -114,7 +123,29 @@ public class UserController {
             logger.error("读取头像失败：" + e.getMessage());
             throw new RuntimeException(e);
         }
+    }
 
+    @RequestMapping(path = "/profile/{userId}", method = RequestMethod.GET)
+    public String getProfilePage(@PathVariable("userId") int userId, Model model) {
+        User user = userService.findUserById(userId);
+        if (user == null) {
+            throw new RuntimeException("User is not exists");
+        }
+
+        model.addAttribute("user", user);
+        int likeCount = likeService.findUserLikeCount(userId);
+        model.addAttribute("likeCount", likeCount);
+
+        long followeeCount = followService.findFolloweeCount(userId, ENTITY_TYPE_USER);
+        model.addAttribute("followeeCount", followeeCount);
+        long followerCount = followService.findFollowerCount(ENTITY_TYPE_USER, userId);
+        model.addAttribute("followerCount", followerCount);
+        boolean hasFollowed = false;
+        if (hostHolder.getUser() != null) {
+            hasFollowed = followService.hasFollowed(hostHolder.getUser().getId(), ENTITY_TYPE_USER, userId);
+        }
+        model.addAttribute("hasFollowed", hasFollowed);
+        return "/site/profile";
     }
 
 }
