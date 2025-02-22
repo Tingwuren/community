@@ -1,9 +1,7 @@
 package cn.edu.bupt.community.controller;
 
-import cn.edu.bupt.community.entity.Comment;
-import cn.edu.bupt.community.entity.DiscussPost;
-import cn.edu.bupt.community.entity.Page;
-import cn.edu.bupt.community.entity.User;
+import cn.edu.bupt.community.entity.*;
+import cn.edu.bupt.community.event.EventProducer;
 import cn.edu.bupt.community.service.CommentService;
 import cn.edu.bupt.community.service.DiscussPostService;
 import cn.edu.bupt.community.service.LikeService;
@@ -40,6 +38,9 @@ public class DiscussPostController implements CommunityConstant {
     @Autowired
     private LikeService likeService;
 
+    @Autowired
+    private EventProducer eventProducer;
+
     @RequestMapping(path = "/add", method = RequestMethod.POST)
     @ResponseBody
     public String addDiscussPost(String title, String content) {
@@ -54,6 +55,14 @@ public class DiscussPostController implements CommunityConstant {
         discussPost.setContent(content);
         discussPost.setCreateTime(new Date());
         discussPostService.addDiscussPost(discussPost);
+
+        // 触发发帖事件
+        Event event = new Event()
+                .setTopic(TOPIC_PUBLISH)
+                .setUserId(user.getId())
+                .setEntityType(ENTITY_TYPE_POST)
+                .setEntityId(discussPost.getId());
+        eventProducer.fireEvent(event);
 
         return CommunityUtil.getJSONString(0, "发布成功！");
     }
